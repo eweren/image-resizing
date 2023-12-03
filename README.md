@@ -30,4 +30,3 @@ This ensures that image requests under that path are intercepted by the worker a
 - The image is resized to the width provided in the `w<NUMBER>` path element. If the image does not have a size, or as a size greater than `1000` , then `1000` is used.
 - If an error occurs, the original image is loaded from the origin server.
 - `metadata` is stripped except `copyright`
-
